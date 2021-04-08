@@ -1,0 +1,16 @@
+
+ Exception:2021.03.29 16:09:02
+java.io.FileNotFoundException: /storage/emulated/0/.tmp/Yozo_Office/Temp/fc/7074570491617005342620/KONFIGURASI ROUTING STATIC SRY.docx/word/media/image10.png (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:287)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:223)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:171)
+	at b.f.i.h.a(Unknown Source:174)
+	at b.f.i.h.o(Unknown Source:69)
+	at b.f.i.q.j.m0(Unknown Source:2)
+	at b.f.i.q.j.i(Unknown Source:0)
+	at emo.main.FileHelper.openFileHead(Unknown Source:30)
+	at emo.main.FileReaderHandler$ReadFileHandlerCallback.handleMessage(Unknown Source:847)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:192)
+	at emo.main.ThreadWorker$1.run(Unknown Source:54)
